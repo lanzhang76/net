@@ -122,5 +122,13 @@ export default {
     display: none;
     background: coral;
   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    padding: 10vh 0;
+  }
 }
 </style>

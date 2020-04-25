@@ -101,7 +101,7 @@ export default {
 .project-content {
   margin-left: 210px;
   margin-right: 210px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .project-content img {
