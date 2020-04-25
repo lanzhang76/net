@@ -1,5 +1,6 @@
 ---
-title: Hack(Comedy) Performance
+title: Hack(Comedy)
+order: 03
 year: 2020
 Description10: "A computational comedy performance"
 Description50: "A computational comedy performance that reflects the condensed themes and identities in the American comedy landscape through a live procedural generation"

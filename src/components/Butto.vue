@@ -3,13 +3,15 @@
       <input type="checkbox" />
       <span>{{title}}</span>
   </label>-->
-  <button class="ck-button">{{title}}</button>
+  <a v-bind:href="info.link" target="_blank">
+    <button class="ck-button">{{info.title}}</button>
+  </a>
 </template>
 
 <script>
 export default {
   name: "butto",
-  props: { title: "" },
+  props: { info: { title: "", link: "" } },
   data() {
     return {};
   }
@@ -20,13 +22,13 @@ export default {
 button {
   padding: 5px;
   background-color: none;
-  border: 1px solid black;
-  margin: 1px;
+  border: 1px solid var(--global-font-color);
+  margin-right: 5px;
   margin-bottom: 0;
   border-radius: 2px;
   float: left;
   font-size: var(--cap-font-size);
-  color: black;
+  color: var(--global-font-color);
   outline: none;
 }
 

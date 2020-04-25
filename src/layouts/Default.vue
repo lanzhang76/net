@@ -24,7 +24,7 @@ export default {
 
 :root {
   --reg-font-size: 25px;
-  --cap-font-size: 20px;
+  --cap-font-size: 18px;
   --world-padding: 20px;
   --mobile-world-padding: 15px;
   --color-grey-base: #c0c0c0;

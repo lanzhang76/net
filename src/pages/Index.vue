@@ -23,7 +23,7 @@
 
 <static-query>
 {
- allPost{
+ allPost(sortBy:"order"){
   edges{
     node{
       content
@@ -45,7 +45,7 @@ import coverimage from "../components/Cover";
 
 export default {
   metaInfo: {
-    title: "Lan Zhang"
+    title: "Work"
   },
   components: {
     Foofoo,

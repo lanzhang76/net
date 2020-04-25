@@ -1,5 +1,6 @@
 ---
 title: Toast2Word
+order: 09
 year: 2019
 Description10: "A word guessing game"
 Description50: "A word guessing game made with word2vec, played between a computer program and human players."

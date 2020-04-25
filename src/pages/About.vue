@@ -2,19 +2,25 @@
   <Layout>
     <div class="parent-col">
       <div class="left-col">
-        <div>
+        <div class="left-sec">
           <caption class="cap_small">Download/View</caption>
-
-          <butto @click.native="showR" v-bind:title="`CV`"></butto>
-          <butto v-bind:title="`Resume`"></butto>
+          <!--  @click.native="showR" -->
+          <butto v-bind:info="{title:`CV`,link:cvLink}"></butto>
+          <butto v-bind:info="{title:`Resume`,link:resumeLink}"></butto>
+        </div>
+        <div class="left-sec" id="connect_buttons">
+          <caption class="cap_small">Connect</caption>
+          <!--  @click.native="showR" -->
+          <butto v-bind:info="{title:`Git`,link:git}"></butto>
+          <butto v-bind:info="{title:`LinkedIn`,link:linkedin}"></butto>
         </div>
       </div>
       <div class="right-col">
         <p class="intro">
           Hello there, this is Lan.
           <br />
-          <br />I am a creative developer and designer.
-          <br />I'm currently a MFA candidate at Design and Technology program at Parsons School of Design in NYC.
+          <br />I am a developer and designer.
+          <br />Currently, I am an MFA candidate at Design and Technology program at Parsons School of Design in NYC.
           I worked professionally as an art director in the advertising industry. Before that, I studied Advertising and Psychology at Syracuse University.
           <br />
           <br />You can say hi to me at 📨
@@ -39,6 +45,7 @@
           </p>
         </div>
       </div>
+      <div class="social-col"></div>
       <scrollTop v-show="resume" />
     </div>
   </Layout>
@@ -56,7 +63,13 @@ export default {
   },
   data() {
     return {
-      resume: false
+      resume: false,
+      cvLink:
+        "https://drive.google.com/file/d/1B-w1qm1mlTFZyFc2j_BZIvEQW1KUeu7G/view?usp=sharing",
+      resumeLink:
+        "https://drive.google.com/file/d/1ni3XUpdQngQFnf0hmo4tP67T7WV-HYKR/view?usp=sharing",
+      git: "https://github.com/lanzhang76",
+      linkedin: "https://www.linkedin.com/in/lan-zhang-1700a0b0"
     };
   },
   methods: {
@@ -92,6 +105,19 @@ a:hover {
   text-align: left;
 }
 
+.left-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.left-sec {
+  margin-bottom: 50px;
+}
+
+#connect_buttons {
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
   .parent-col {
     display: flex;
@@ -99,16 +125,18 @@ a:hover {
   }
 
   .left-col {
-    position: -webkit-sticky;
-    position: sticky;
-    height: 100%;
     flex-basis: 300px;
   }
 
   .right-col {
-    flex-basis: calc(100%-300px);
+    flex-basis: calc(100%-600px);
     right: 300px;
     width: 800px;
+  }
+
+  .social-col {
+    flex-basis: 150px;
+    right: 0;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -119,11 +147,16 @@ a:hover {
 
   .left-col {
     position: relative;
+    display: flex;
+    flex-flow: row;
     width: 100%;
     margin-bottom: 2rem;
+    justify-content: space-between;
+    order: 1;
   }
 
   .right-col {
+    order: 2;
     position: relative;
     margin-left: 0;
     width: 100%;

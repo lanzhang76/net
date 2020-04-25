@@ -1,5 +1,6 @@
 ---
 title: Computational Comedy
+order: 10
 year: 2020
 Description10: "A web interface that allows you to write with virtual comedians"
 Description50: "An interface that aims to interrogate our perception of humor through a procedurally live generation that reflects condensed themes and identities in the American comedy landscape."
