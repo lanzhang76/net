@@ -8,8 +8,8 @@ Tags: ["Word2Vec","Machine Learning","Python"]
 Collaborator: "In Collaboration with Anna Garbier"
 cover_image: "./cover_images/toast00.jpg"
 Links: [{
-    git: ["Github file","https://github.com/lanzhang76/bloop_shader_app"],
-    project: ["Web app","https://bloopp.herokuapp.com/"],
+    git: ["Github file","https://github.com/lanzhang76/toast"],
+    project: ["Web app","https://toast2word.netlify.com/"],
     other: [""]
 }]
 ---

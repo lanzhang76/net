@@ -19,9 +19,21 @@
         <p class="intro">
           Hello there, this is Lan.
           <br />
-          <br />I am a developer and designer.
-          <br />Currently, I am an MFA candidate at Design and Technology program at Parsons School of Design in NYC.
-          I worked professionally as an art director in the advertising industry. Before that, I studied Advertising and Psychology at Syracuse University.
+          <br />I am a developer and designer based in New York City.
+          <br />I am an MFA student at the
+          <a
+            href="https://www.newschool.edu/parsons/mfa-design-technology/"
+            target="_blank"
+          >Design and Technology program at</a> Parsons School of Design. I am also a
+          <a
+            href="https://www.recurse.com/"
+            target="_blank"
+          >Recurse Center</a> Winter2'20 alum.
+          I worked as an art director at
+          <a
+            href="https://www.publicisna.com/"
+            target="_blank"
+          >Publicis NY</a>. Before that, I studied Advertising and Psychology at Syracuse University.
           <br />
           <br />You can say hi to me at 📨
           <a
