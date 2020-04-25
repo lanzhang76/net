@@ -4,7 +4,7 @@ order: 01
 year: 2018
 Description10: "A band of music visualizer cubes"
 Description50: "A band of five cubes dance to different volume levels of of any preloaded music"
-Tags: ["Unity","FFT"]
+Tags: ["Unity"]
 Collaborator: "In Collaboration with Eraince Wang"
 cover_image: "./cover_images/cubi00.jpg"
 Links: [{
