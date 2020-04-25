@@ -32,6 +32,8 @@ export default {
   --global-font-color: #333333;
   --top-sticky: 60px;
   --global-cap: 11px;
+  --highlight-salmon: #ffb7b7;
+  --highlight-blue: royalblue;
 }
 
 body {

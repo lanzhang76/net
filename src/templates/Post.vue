@@ -3,11 +3,12 @@
     <div class="project-info">
       <div class="project-name project-child">
         <p class="cap_small">Project Name</p>
-        <p>{{$page.post.title}}</p>
+        <p id="title">{{$page.post.title}}</p>
       </div>
       <div class="project-description project-child">
         <p class="cap_small">Project Description</p>
         <p>{{$page.post.Description50}}</p>
+        <p id="collab">{{$page.post.Collaborator}}</p>
       </div>
       <div class="project-year project-child">
         <p class="cap_small">Year</p>
@@ -22,11 +23,16 @@
       </div>
       <div class="project-links project-child">
         <p class="cap_small">Links</p>
-        <ul>
+        <ul v-for="link in $page.post.Links" :key="link.id">
           <li>
-            <!-- <a href="$page.post.Project_Link">Project Link</a> -->
+            <a v-bind:href="link.git[1]" target="_blank">{{link.git[0]}}</a>
           </li>
-          <li>Github Link</li>
+          <li>
+            <a v-bind:href="link.project[1]" target="_blank">{{link.project[0]}}</a>
+          </li>
+          <li>
+            <a v-bind:href="link.other[1]" target="_blank">{{link.other[0]}}</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -45,16 +51,18 @@ query ($path: String!) {
     Description50
     year
     Tags
-    Git_link
-    Project_Link
-    Other_Link
+    Links{
+      git
+      project
+      other
+    }
     Collaborator
     content
   }
 }
 </page-query>
 
-<script>
+<script scoped>
 import scrollTop from "../components/scrollTop";
 
 export default {
@@ -63,6 +71,17 @@ export default {
 </script>
 
 <style>
+.project-info a,
+.project-content a {
+  text-decoration: none;
+  color: var(--global-font-color);
+}
+
+.project-info a:hover,
+.project-content a:hover {
+  color: var(--highlight-blue);
+}
+
 .project-info {
   display: grid;
   grid-template-columns: 200px 5fr 1.5fr 2fr 200px;
@@ -94,6 +113,15 @@ export default {
   padding-left: 40px;
 }
 
+.project-name #title {
+  font-weight: 400;
+}
+
+#collab {
+  font-size: 15px;
+  margin-top: 3px;
+  font-weight: 400;
+}
 @media only screen and (max-width: 1000px) {
   .project-info div {
     padding-bottom: 20px;

@@ -1,14 +1,18 @@
 ---
-title: Toast
+title: Toast2Word
 year: 2019
 Description10: "A word guessing game"
-Description50: "A word guessing game made with word2vec, played between a computer program and human players. Collaborated with Anna Garbier"
-Tags: ["Word2Vec","Machine Learning"]
-Collaborator: 
+Description50: "A word guessing game made with word2vec, played between a computer program and human players."
+Tags: ["Word2Vec","Machine Learning","Python"]
+Collaborator: "In Collaboration with Anna Garbier"
 cover_image: "./cover_images/toast00.jpg"
-Git_link: ''
-Project_Link: ''
-Other_Link: ''
+Links: [{
+    git: ["Github file","https://github.com/lanzhang76/bloop_shader_app"],
+    project: ["Web app","https://bloopp.herokuapp.com/"],
+    other: [""]
+}]
 ---
 
 ![cover](./cover_images/toast00.jpg)
+
+
