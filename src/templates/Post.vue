@@ -170,5 +170,9 @@ export default {
   .project-tags {
     order: 3;
   }
+
+  .project-year {
+    padding-left: 0px;
+  }
 }
 </style>

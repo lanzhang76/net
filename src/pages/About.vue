@@ -13,7 +13,7 @@
         <p class="intro">
           Hello there, this is Lan.
           <br />
-          <br />I am a creative programmer and artist.
+          <br />I am a creative developer and designer.
           <br />I'm currently a MFA candidate at Design and Technology program at Parsons School of Design in NYC.
           I worked professionally as an art director in the advertising industry. Before that, I studied Advertising and Psychology at Syracuse University.
           <br />
@@ -52,7 +52,7 @@ import butto from "../components/Butto";
 export default {
   components: { scrollTop, exit, butto },
   metaInfo: {
-    title: "About us"
+    title: "About"
   },
   data() {
     return {
@@ -85,6 +85,13 @@ a {
 a:hover {
   color: darkgray;
 }
+
+.cap_small {
+  font-size: var(--global-cap);
+  padding-bottom: 12px;
+  text-align: left;
+}
+
 @media only screen and (min-width: 1000px) {
   .parent-col {
     display: flex;

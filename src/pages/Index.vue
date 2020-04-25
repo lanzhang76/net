@@ -44,6 +44,9 @@ import Foofoo from "../components/Footer";
 import coverimage from "../components/Cover";
 
 export default {
+  metaInfo: {
+    title: "Lan Zhang"
+  },
   components: {
     Foofoo,
     coverimage
