@@ -71,6 +71,11 @@ export default {
 </script>
 
 <style>
+.caption {
+  font-size: 12px;
+  color: grey;
+}
+
 .project-info a,
 .project-content a {
   text-decoration: none;
