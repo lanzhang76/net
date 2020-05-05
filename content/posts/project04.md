@@ -27,10 +27,10 @@ There are a couple of benefits coders can interact with each other’s sketch. <
 <br>
 
 ### Social Shading & Social Distancing: A Shader workshop 
-This web editor was made in response to our shader community study class at Parsons D&T program being moved online. We wanted to create a platform that takes advantage of having everyone remotely participating in the shader clsss.
+This web editor was made in response to our shader community study class at Parsons D&T program being moved online during Covid19 social distancing protocol. We wanted to create a platform that makes remote learning and collaborating fun.
 You can find the workshop materials [here](https://www.notion.so/Social-shading-with-social-distancing-70b8a9e5744e489cb082f7f6d1c09669).
 
-We added a <b>game mechanism</b> where the system randomly picks up a coder in the room to start coding with a 30-seconds countdown. Then when the next person is up, they will need to pull the latest sketch and make edits. The goal is to collectively create an interesting shader blob with everyone in the room.
+For the workshop, we added a <b>game mechanism</b> where the system randomly picks up a coder in the room to start coding with a 30-seconds countdown. Then when the next person is up, they will need to pull the latest sketch and make edits. The goal is to collectively create an interesting shader blob with everyone in the room.
 
 Some beautiful work made collectively during our first session of “Social Shading during Social Distancing”:
 ![bloop00](./content_images/bloop_ws00.png)
