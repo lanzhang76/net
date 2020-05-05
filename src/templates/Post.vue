@@ -71,6 +71,9 @@ export default {
 </script>
 
 <style>
+b {
+  font-weight: 400;
+}
 .caption {
   font-size: 12px;
   color: grey;
