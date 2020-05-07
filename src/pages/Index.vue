@@ -94,6 +94,7 @@ export default {
   bottom: 0;
   padding: var(--world-padding);
   font-size: var(--reg-font-size);
+  z-index: 200;
 }
 
 .hover-title {

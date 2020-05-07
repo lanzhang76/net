@@ -23,6 +23,7 @@ export default {
   right: 0px;
   box-sizing: border-box;
   padding: var(--world-padding);
+  z-index: 200;
 }
 
 #myBtn {
