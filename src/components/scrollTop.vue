@@ -31,7 +31,7 @@ export default {
   z-index: 2;
   border: none;
   outline: none;
-  background-color: none;
+  background-color: transparent;
   color: #999999;
   cursor: pointer;
   font-weight: 300;

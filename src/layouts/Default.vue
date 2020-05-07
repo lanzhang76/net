@@ -71,6 +71,7 @@ body {
   bottom: 0;
   width: 100%;
   font-size: 25px;
+  z-index: 100;
 }
 
 .header_element {
@@ -129,6 +130,7 @@ body {
     display: nowrap;
   }
   .header_element {
+    z-index: 100;
   }
 
   .x {

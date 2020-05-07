@@ -47,7 +47,7 @@ This project was part of the Parsons MFA Design and Technology Major Major End-o
 
 ![brochure](./content_images/happy04.png)
 
-Activities Series videos example: <b> Plant workout at your desk</b>
+"Activity Series" video example: <b> Plant workout at your desk</b>
 <div style="padding-top: 56.25%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" src="https://onelineplayer.com/player.html?autoplay=false&autopause=false&muted=false&loop=false&url=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fvnug6sblmwtgb39%2Fhappyworkers_plant.mp4%3Fraw%3D1&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=false&style=light&quality=auto&playButton=true" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>
 <p class="caption"> Voiceover: Victoria Pineda, Soundtrack remix: Eraince Wang</p>
 
