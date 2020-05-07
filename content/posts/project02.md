@@ -4,7 +4,7 @@ order: 10
 year: 2020
 Description10: "A web interface that allows you to write with virtual comedians"
 Description50: "A web interface that reflects condensed themes and identities in the American comedy landscape through procedural generation of comic text borrowed from stand-up comedians"
-Tags: ["Markov Chains","Vue.js"]
+Tags: ["Markov Chains","Natural Language Processing","Vue.js"]
 Collaborator: ''
 cover_image: "./cover_images/hack_int00.jpg"
 Links: [{
