@@ -20,11 +20,11 @@
           Hello there, this is Lan.
           <br />
           <br />I am a developer and designer based in New York City.
-          <br />I am an MFA student at the
+          <br />I just graduated from the
           <a
             href="https://www.newschool.edu/parsons/mfa-design-technology/"
             target="_blank"
-          >Design and Technology program at</a> Parsons School of Design. I am also a
+          >Design and Technology MFA program at</a> Parsons School of Design. I am also a
           <a
             href="https://www.recurse.com/"
             target="_blank"
