@@ -69,6 +69,8 @@ export default {
 
 <style>
 .main {
+  left: 2rem;
+  right: 2rem;
   padding-top: 1rem /*!main_margin*/;
   padding-bottom: 1rem /*!main_margin*/;
   padding-left: 1rem /*!main_margin*/;

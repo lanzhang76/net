@@ -69,7 +69,6 @@ body {
   display: inline-block;
   left: 0;
   bottom: 0;
-  width: 100%;
   font-size: 25px;
   z-index: 100;
 }
