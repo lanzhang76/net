@@ -133,5 +133,10 @@ export default {
     justify-content: left;
     padding: 10vh 0;
   }
+
+  .main {
+    left: 1rem;
+    right: 1rem;
+  }
 }
 </style>
