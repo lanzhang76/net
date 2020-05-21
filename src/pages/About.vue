@@ -35,12 +35,15 @@
             target="_blank"
           >Publicis NY</a>. Before that, I studied Advertising and Psychology at Syracuse University.
           <br />
-          <br />Say hi to me at 📨
+          <br />Say hi at
           <a
             href="mailto:lan@lanzhang.net?Subject=Hello%20Lan"
             target="_top"
-          >Lan@lanzhang.net</a>
+            style="text-decoration: underline"
+          >Lan@Lanzhang.net</a>
         </p>
+        <br />
+
         <br />
         <br />
         <div v-show="resume">
@@ -57,7 +60,14 @@
           </p>
         </div>
       </div>
-      <div class="social-col"></div>
+      <div class="social-col">
+        <div id="credits">
+          This site is built with
+          <a href="https://vuejs.org/">Vue.js</a> and
+          <a href="https://gridsome.org/">Gridsome</a>.
+          © 2020 Lan Zhang
+        </div>
+      </div>
       <scrollTop v-show="resume" />
     </div>
   </Layout>
@@ -130,6 +140,14 @@ a:hover {
   display: none;
 }
 
+#credits {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: var(--world-padding);
+  font-size: var(--cap-font-size);
+}
+
 @media only screen and (min-width: 1000px) {
   .parent-col {
     display: flex;
@@ -172,6 +190,10 @@ a:hover {
     position: relative;
     margin-left: 0;
     width: 100%;
+  }
+  #credits {
+    position: relative;
+    padding: 0;
   }
 }
 </style>
