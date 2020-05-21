@@ -20,11 +20,11 @@
           Hello there, this is Lan.
           <br />
           <br />I am a developer and designer based in New York City.
-          <br />I graduated with an MFA from the
+          <br />I hold an MFA in
           <a
             href="https://www.newschool.edu/parsons/mfa-design-technology/"
             target="_blank"
-          >Design and Technology program at</a> Parsons School of Design. I am a
+          >Design and Technology</a> from Parsons School of Design. I am a
           <a
             href="https://www.recurse.com/"
             target="_blank"
@@ -35,11 +35,11 @@
             target="_blank"
           >Publicis NY</a>. Before that, I studied Advertising and Psychology at Syracuse University.
           <br />
-          <br />You can say hi to me at 📨
+          <br />Say hi to me at 📨
           <a
-            href="mailto:lanzhangwork@gmail.com?Subject=Hello%20Lan"
+            href="mailto:lan@lanzhang.net?Subject=Hello%20Lan"
             target="_top"
-          >lanzhangwork@gmail.com</a>
+          >Lan@lanzhang.net</a>
         </p>
         <br />
         <br />
