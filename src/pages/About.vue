@@ -60,15 +60,14 @@
           </p>
         </div>
       </div>
-      <div class="social-col">
-        <div id="credits">
-          This site is built with
-          <a href="https://vuejs.org/">Vue.js</a> and
-          <a href="https://gridsome.org/">Gridsome</a>.
-          © 2020 Lan Zhang
-        </div>
-      </div>
+      <div class="social-col"></div>
       <scrollTop v-show="resume" />
+    </div>
+    <div id="credits">
+      This site is built with
+      <a href="https://vuejs.org/">Vue.js</a> and
+      <a href="https://gridsome.org/">Gridsome</a>.
+      © 2020 Lan Zhang
     </div>
   </Layout>
 </template>
