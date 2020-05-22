@@ -44,8 +44,6 @@
         </p>
         <br />
 
-        <br />
-        <br />
         <div v-show="resume">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In est ante in nibh. Sed augue lacus viverra vitae congue eu consequat ac. Venenatis tellus in metus vulputate eu scelerisque. Non blandit massa enim nec. Eu facilisis sed odio morbi. Egestas congue quisque egestas diam. Nunc scelerisque viverra mauris in aliquam sem fringilla. Elit pellentesque habitant morbi tristique. Eget dolor morbi non arcu.
@@ -67,7 +65,7 @@
       This site is built with
       <a href="https://vuejs.org/">Vue.js</a> and
       <a href="https://gridsome.org/">Gridsome</a>.
-      © 2020 Lan Zhang
+      Copyright © 2020 Lan Zhang
     </div>
   </Layout>
 </template>
@@ -144,7 +142,7 @@ a:hover {
   right: 0;
   bottom: 0;
   padding: var(--world-padding);
-  font-size: var(--cap-font-size);
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 1000px) {

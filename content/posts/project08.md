@@ -4,7 +4,7 @@ order: 00
 year: 2018
 Description10: "An allo-grooming device designed for socially left-out ring-tailed lemurs"
 Description50: "An allo-grooming device designed for socially left-out male ring-tailed lemurs."
-Tags: ["Interaction","Enrichment","Design"]
+Tags: ["Interaction Design","Physical Computing","Rapid Prototyping","User Research"]
 Collaborator:
 cover_image: "./cover_images/rtl00.jpg"
 Links: [{

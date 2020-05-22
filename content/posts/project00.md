@@ -4,7 +4,7 @@ order: 12
 year: 2020
 Description10: "An infinite-scroll, live-generated story for Parsons Design & Technology Hindsight virtual thesis show"
 Description50: "An infinite-scroll, live-generated story for Parsons Design & Technology Hindsight virtual thesis show"
-Tags: ["Socket.io","Javascript",""]
+Tags: ["Socket.io","Express.js","Participatory Design"]
 Collaborator: "In Collaboration with Anna Garbier & Zihao Chen"
 cover_image: "./cover_images/guestbook_00.jpg"
 Links: [{

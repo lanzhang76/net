@@ -4,7 +4,7 @@ order: 08
 year: 2019
 Description10: "A speculative web application that interrogates our workplace stress autonomy"
 Description50: "A speculative wellness program that companies use to facilitate employees' autonomy over their workplace stress management"
-Tags: ["Interaction","Speculative","Design"]
+Tags: ["Interaction Design","Motion Graphics","Javascript"]
 Collaborator:
 cover_image: "./cover_images/hw00.jpg"
 Links: [{
