@@ -60,7 +60,6 @@ export default {
   methods: {
     changeURL: function(url, des) {
       this.currentURL = url.src;
-      console.log(des);
       this.currentDescription = des;
     }
   }

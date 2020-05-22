@@ -83,10 +83,8 @@ export default {
   data() {
     return {
       resume: false,
-      cvLink:
-        "https://drive.google.com/file/d/1B-w1qm1mlTFZyFc2j_BZIvEQW1KUeu7G/view?usp=sharing",
-      resumeLink:
-        "https://drive.google.com/file/d/1ni3XUpdQngQFnf0hmo4tP67T7WV-HYKR/view?usp=sharing",
+      cvLink: "/cv.pdf",
+      resumeLink: "/resumeweb.pdf",
       git: "https://github.com/lanzhang76",
       linkedin: "https://www.linkedin.com/in/lan-zhang-1700a0b0"
     };
