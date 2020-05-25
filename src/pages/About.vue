@@ -5,7 +5,7 @@
         <div class="left-sec">
           <caption class="cap_small">Download/View</caption>
           <!--  @click.native="showR" -->
-          <butto v-bind:info="{title:`CV`,link:cvLink}"></butto>
+          <!-- <butto v-bind:info="{title:`CV`,link:cvLink}"></butto> -->
           <butto v-bind:info="{title:`Resume`,link:resumeLink}"></butto>
         </div>
         <div class="left-sec" id="connect_buttons">
