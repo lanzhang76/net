@@ -10,7 +10,7 @@ cover_image: "./cover_images/hack_p00.jpg"
 Links: [{
     git: ["Github file","https://github.com/lanzhang76/hack_performance_tool"],
     project: ["Youtube","https://www.youtube.com/watch?v=9kksqqbTM-o"],
-    other: [""]
+    other: ["Publication","https://parsons.edu/dt/publication/entry/why-do-i-hack-comedy/"]
 }]
 ---
 
