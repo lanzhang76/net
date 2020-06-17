@@ -19,7 +19,12 @@
         <p class="intro">
           Hello there, this is Lan.
           <br />
-          <br />I am a developer and designer based in New York City.
+          <br />I am a creative technlogist, developer and
+          <a
+            href="https://www.lanzhang.work"
+            target="blank"
+            style="text-decoration: underline"
+          >art director</a> based in NYC.
           <br />I hold an MFA in
           <a
             href="https://www.newschool.edu/parsons/mfa-design-technology/"
@@ -42,6 +47,7 @@
             style="text-decoration: underline"
           >Lan@Lanzhang.net</a>
         </p>
+
         <br />
 
         <div v-show="resume">
