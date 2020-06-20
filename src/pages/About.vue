@@ -90,7 +90,7 @@ export default {
     return {
       resume: false,
       cvLink: "/cv.pdf",
-      resumeLink: "/LanZhangResume.pdf",
+      resumeLink: "/lanzhangresume_ct.pdf",
       git: "https://github.com/lanzhang76",
       linkedin: "https://www.linkedin.com/in/lan-zhang-1700a0b0"
     };
