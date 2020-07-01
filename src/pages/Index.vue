@@ -5,7 +5,15 @@
         <div class="container">
           <div v-for="edge in $static.allPost.edges" :key="edge.node.id">
             <div v-on:mouseover="changeURL(edge.node.cover_image,edge.node.Description10)">
-              <g-link class="hover-title" :to="edge.node.path">⧠ {{edge.node.title}}</g-link>
+              <g-link class="hover-title" :to="edge.node.path">
+                <!-- <span>{{ hover ? '⧈' : '⧠' }}</span> -->
+                ⧠
+                <span
+                  id="spantitle"
+                  @mouseover="hover = true"
+                  @mouseleave="hover = false"
+                >{{edge.node.title}}</span>
+              </g-link>
             </div>
             <!-- <g-image class="hover-image" :src="edge.node.cover_image"></g-image> -->
           </div>
@@ -54,13 +62,22 @@ export default {
   data() {
     return {
       currentURL: "",
-      currentDescription: ""
+      currentDescription: "A creative technlogist, developer and art director",
+      hover: false
     };
   },
   methods: {
     changeURL: function(url, des) {
       this.currentURL = url.src;
       this.currentDescription = des;
+    },
+    fillcube: function() {
+      console.log(this.$refs.cuberef.innerText);
+      if (this.$refs.cuberef.innerText == "⧈") {
+        this.$refs.cuberef.innerText = "⧠";
+      } else {
+        this.$refs.cuberef.innerText = "⧈";
+      }
     }
   }
 };
@@ -84,9 +101,16 @@ export default {
 .container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   padding: 10vh 0;
+  font-family: "Rozha One", serif;
+}
+
+#shortDes {
+  /* background-color: black;
+  color: white; */
+  font-family: "Poppins", sans-serif;
 }
 
 .header2 {
@@ -100,7 +124,7 @@ export default {
 
 .hover-title {
   margin: 10px;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: 300;
   display: inline;
   pointer-events: auto;
@@ -111,7 +135,26 @@ export default {
 }
 
 .hover-title:hover {
-  color: grey;
+}
+
+#spantitle:hover {
+  background-color: black;
+  animation: fontchange 1s ease forwards;
+}
+
+@keyframes fontchange {
+  0% {
+    color: rgba(255, 173, 255, 1);
+  }
+  25% {
+    color: rgba(173, 205, 255, 1);
+  }
+  50% {
+    color: rgba(199, 255, 173, 1);
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+  }
 }
 
 #shortDes {
@@ -131,6 +174,7 @@ export default {
     align-items: left;
     justify-content: left;
     padding: 10vh 0;
+    font-size: 40px;
   }
 
   .main {

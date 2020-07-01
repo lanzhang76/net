@@ -123,6 +123,8 @@ b {
 
 .project-name #title {
   font-weight: 400;
+  font-family: "Rozha One", serif;
+  font-size: 25px;
 }
 
 #collab {

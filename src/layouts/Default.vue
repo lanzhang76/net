@@ -21,9 +21,11 @@ export default {
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Rozha+One&display=swap");
 
 :root {
   --reg-font-size: 25px;
+  --big-font: 45px;
   --cap-font-size: 18px;
   --world-padding: 20px;
   --mobile-world-padding: 15px;
@@ -37,13 +39,18 @@ export default {
 }
 
 body {
+  cursor: url("/cursor.png"), default;
   font-family: sans-serif;
-  font-family: "Heebo", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: var(--reg-font-size);
   color: var(--global-font-color);
   margin: 0;
   padding: 0;
   word-spacing: 1px;
+}
+
+a:hover {
+  cursor: url("/cursorh.png"), default;
 }
 
 ::selection {
