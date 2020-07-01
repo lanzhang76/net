@@ -20,7 +20,7 @@
         </div>
       </div>
       <!-- <Foofoo></Foofoo> -->
-      <div class="header_element header2">
+      <div class="header_element header2 round-button">
         <g-link class="nav__link" to="/about/">About</g-link>
       </div>
       <coverimage v-bind:url="currentURL" v-show="currentURL != ''" />
@@ -107,6 +107,24 @@ export default {
   font-family: "Rozha One", serif;
 }
 
+.round-button {
+  background-color: #ffb200;
+  width: calc(6vw - 2px);
+  height: calc(6vw - 2px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.round-button:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
 #shortDes {
   /* background-color: black;
   color: white; */
@@ -145,15 +163,18 @@ export default {
 @keyframes fontchange {
   0% {
     color: rgba(255, 173, 255, 1);
+    border-radius: 5%;
   }
   25% {
     color: rgba(173, 205, 255, 1);
   }
   50% {
     color: rgba(199, 255, 173, 1);
+    border-radius: 30%;
   }
   100% {
     color: rgba(255, 255, 255, 1);
+    border-radius: 5%;
   }
 }
 
