@@ -64,7 +64,13 @@
           </p>
         </div>
       </div>
-      <div class="social-col"></div>
+      <div class="social-col">
+        <caption class="cap_small">Connect</caption>
+        <!--  @click.native="showR" -->
+        <butto v-bind:info="{title:`Git`,link:git}"></butto>
+        <butto v-bind:info="{title:`Link`,link:linkedin}"></butto>
+        <butto v-bind:info="{title:`Insta`,link:instagram}"></butto>
+      </div>
       <scrollTop v-show="resume" />
     </div>
     <div id="credits">
@@ -92,7 +98,9 @@ export default {
       cvLink: "/cv.pdf",
       resumeLink: "/lanzhangresume_ct.pdf",
       git: "https://github.com/lanzhang76",
-      linkedin: "https://www.linkedin.com/in/lan-zhang-1700a0b0"
+      linkedin:
+        "https://www.linkedin.com/in/https://www.linkedin.com/in/lan-zhang-1700a0b0",
+      instagram: "https://www.instagram.com/turniplan/"
     };
   },
   methods: {
@@ -156,42 +164,41 @@ a:hover {
   }
 
   .left-col {
-    flex-basis: 300px;
+    flex-basis: 500px;
   }
 
   .right-col {
-    flex-basis: calc(100%-600px);
-    right: 300px;
-    width: 800px;
+    flex-basis: calc(100%-900px);
   }
 
   .social-col {
-    flex-basis: 150px;
+    flex-basis: 400px;
     right: 0;
   }
 }
 @media only screen and (max-width: 1000px) {
   .parent-col {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .left-col {
-    position: relative;
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    margin-bottom: 2rem;
-    justify-content: space-between;
     order: 1;
+    margin-bottom: 2rem;
   }
 
   .right-col {
     order: 2;
-    position: relative;
     margin-left: 0;
     width: 100%;
   }
+
+  .social-col {
+    order: 1;
+    margin-bottom: 2rem;
+  }
+
   #credits {
     position: relative;
     padding: 0;

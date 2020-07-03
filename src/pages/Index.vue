@@ -157,24 +157,24 @@ export default {
 
 #spantitle:hover {
   background-color: black;
-  animation: fontchange 1s ease forwards;
+  animation: fontchange 0.5s ease forwards;
 }
 
 @keyframes fontchange {
   0% {
     color: rgba(255, 173, 255, 1);
-    border-radius: 5%;
+    height: 0;
   }
   25% {
     color: rgba(173, 205, 255, 1);
   }
   50% {
     color: rgba(199, 255, 173, 1);
-    border-radius: 30%;
+    height: 100%;
   }
   100% {
     color: rgba(255, 255, 255, 1);
-    border-radius: 5%;
+    height: 100%;
   }
 }
 

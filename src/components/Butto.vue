@@ -24,7 +24,7 @@ button {
   background-color: none;
   border: 1px solid var(--global-font-color);
   margin-right: 5px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   border-radius: 2px;
   float: left;
   font-size: var(--cap-font-size);
