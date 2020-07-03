@@ -144,5 +144,10 @@ a:hover {
     top: 0;
     right: 0;
   }
+
+  .header_name {
+    font-size: 22px;
+    background-color: white;
+  }
 }
 </style>

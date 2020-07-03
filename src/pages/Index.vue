@@ -195,12 +195,29 @@ export default {
     align-items: left;
     justify-content: left;
     padding: 10vh 0;
-    font-size: 40px;
   }
 
   .main {
     left: 1rem;
     right: 1rem;
+  }
+
+  .round-button {
+    background-color: transparent;
+    right: 1em;
+    font-size: 22px;
+  }
+
+  .hover-title {
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 300;
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--global-font-color);
+    margin-right: 20px;
   }
 }
 </style>
