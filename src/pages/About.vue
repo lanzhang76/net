@@ -98,8 +98,7 @@ export default {
       cvLink: "/cv.pdf",
       resumeLink: "/lanzhangresume_ct.pdf",
       git: "https://github.com/lanzhang76",
-      linkedin:
-        "https://www.linkedin.com/in/https://www.linkedin.com/in/lan-zhang-1700a0b0",
+      linkedin: "https://www.linkedin.com/in/lan-zhang-1700a0b0",
       instagram: "https://www.instagram.com/turniplan/"
     };
   },
