@@ -9,7 +9,7 @@
                 <!-- <span>{{ hover ? '⧈' : '⧠' }}</span> -->
                 ⧠
                 <span
-                  id="spantitle"
+                  class="spantitle"
                   @mouseover="hover = true"
                   @mouseleave="hover = false"
                 >{{edge.node.title}}</span>
@@ -142,39 +142,41 @@ export default {
 
 .hover-title {
   margin: 10px;
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 55px;
+  font-weight: 400;
   display: inline;
   pointer-events: auto;
-  cursor: pointer;
   text-decoration: none;
   color: var(--global-font-color);
-  margin-right: 20px;
 }
 
 .hover-title:hover {
 }
 
-#spantitle:hover {
-  background-color: black;
+.spantitle:hover {
   animation: fontchange 0.5s ease forwards;
+}
+
+.spantitle {
+  padding: 0px 20px 0px 20px;
 }
 
 @keyframes fontchange {
   0% {
-    color: rgba(255, 173, 255, 1);
-    height: 0;
+    color: rgba(0, 0, 0, 1);
   }
   25% {
     color: rgba(173, 205, 255, 1);
   }
   50% {
-    color: rgba(199, 255, 173, 1);
-    height: 100%;
+    color: rgba(173, 205, 255, 1);
+    background-color: transparent;
+    border-radius: 30px 0px 30px 0;
   }
   100% {
     color: rgba(255, 255, 255, 1);
-    height: 100%;
+    background-color: black;
+    border-radius: 0 20px 0px 20px;
   }
 }
 
@@ -204,8 +206,14 @@ export default {
 
   .round-button {
     background-color: transparent;
-    right: 1em;
+    display: inherit;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
     font-size: 22px;
+    animation: none;
+    -webkit-transition: -webkit-transform 0s ease-in-out;
+    transition: transform 0s ease-in-out;
   }
 
   .hover-title {
@@ -218,6 +226,14 @@ export default {
     text-decoration: none;
     color: var(--global-font-color);
     margin-right: 20px;
+  }
+
+  .spantitle {
+    padding: 0px;
+  }
+
+  .spantitle:hover {
+    animation: fontchange 0s ease forwards;
   }
 }
 </style>
