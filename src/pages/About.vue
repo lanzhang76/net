@@ -167,7 +167,7 @@ a:hover {
   }
 
   .right-col {
-    flex-basis: calc(100%-800px);
+    flex-basis: auto;
   }
 
   .social-col {
