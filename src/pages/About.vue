@@ -163,16 +163,15 @@ a:hover {
   }
 
   .left-col {
-    flex-basis: 500px;
+    flex-basis: 350px;
   }
 
   .right-col {
-    flex-basis: calc(100%-900px);
+    flex-basis: calc(100%-800px);
   }
 
   .social-col {
-    flex-basis: 400px;
-    right: 0;
+    flex-basis: 450px;
   }
 }
 @media only screen and (max-width: 1000px) {
