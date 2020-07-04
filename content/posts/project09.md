@@ -18,10 +18,6 @@ Links: [{
 
 It takes place at Washington Square Park in New York City where the park is unintentionally divided into specific areas based on its different roles/functions. On the day of the experiment, an inflatable ball started as a deflatable piece that expected to be inflated by four air pumps that are attached at the end of four air tubes. The designed air tubes merged into a single tube that ultimately transported the air into the ball. The setup was unguarded and the only suggestive instruction was the ball-shaped chalk-drawing next to the pumps that reflected the final outcome of the big ball. Through the course of a couple of hours, pedestrians, tourists, families with kids, students and other groups of people would stop and contribute their share of air. Such a communal action eventually transformed the deflatable piece into a 6-ft tall inflatable ball that enabled everyone at the park to interact with, play with, pass around and share the same joyful experience of playing.
 
-<br>
-
-<br>
-
 ![ball](./content_images/ball01.jpg)
 ![ball](./content_images/ball02.jpg)
 ![ball](./content_images/ball03.jpg)
