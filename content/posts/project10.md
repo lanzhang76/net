@@ -6,7 +6,7 @@ Description10: "a sketchbook of coded motion graphics"
 Description50: "a sketchbook of coded motion graphics using math, physics and everything else"
 Tags: ["Processing","Unity","OpenFrameworks","webGL"]
 Collaborator:
-cover_image: "./cover_images/ball00.jpg"
+cover_image: "./cover_images/coded.gif"
 Links: [{
     git: [""],
     project: [""],
