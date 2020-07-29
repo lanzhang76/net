@@ -53,33 +53,33 @@ import coverimage from "../components/Cover";
 
 export default {
   metaInfo: {
-    title: "Work"
+    title: "Work",
   },
   components: {
     Foofoo,
-    coverimage
+    coverimage,
   },
   data() {
     return {
       currentURL: "",
-      currentDescription: "A creative technlogist, developer and art director",
-      hover: false
+      currentDescription: "A creative technologist, developer and art director",
+      hover: false,
     };
   },
   methods: {
-    changeURL: function(url, des) {
+    changeURL: function (url, des) {
       this.currentURL = url.src;
       this.currentDescription = des;
     },
-    fillcube: function() {
+    fillcube: function () {
       console.log(this.$refs.cuberef.innerText);
       if (this.$refs.cuberef.innerText == "⧈") {
         this.$refs.cuberef.innerText = "⧠";
       } else {
         this.$refs.cuberef.innerText = "⧈";
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
