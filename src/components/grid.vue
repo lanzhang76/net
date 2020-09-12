@@ -40,7 +40,7 @@
             </div>
             <div class="box vertical" id="half10">
               <input type="checkbox" v-model="resume" />
-              <caption class="cap_small">Resume</caption>
+              <caption class="cap_small">CV</caption>
               <h1 id="xmark" v-show="resume">✕</h1>
             </div>
           </div>
@@ -161,12 +161,12 @@ div {
 
 #half10:hover {
   transition-duration: 0.2s;
-  color: black;
+  color: royalblue;
 }
 #half10 > input:hover {
   transition-duration: 0.6s;
   background-color: tomato;
-  border: 4px solid royalblue;
+  border: 5px solid royalblue;
 }
 
 #xmark {
