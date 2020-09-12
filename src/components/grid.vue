@@ -159,10 +159,12 @@ div {
   outline: none;
 }
 
+#half10:hover,
 #half10 > input:hover {
-  transition-duration: 0.5s;
-  background-color: #ce5151;
-  border: 4px solid #4dc097;
+  transition-duration: 0.2s;
+  background-color: tomato;
+  border: 4px solid royalblue;
+  color: black;
 }
 
 #xmark {
@@ -170,6 +172,7 @@ div {
   position: absolute;
   right: 10px;
   bottom: 0;
+  pointer-events: none;
 }
 
 ::-webkit-scrollbar {
@@ -229,6 +232,7 @@ iframe {
   margin-top: -20px;
   position: absolute;
   z-index: 200;
+  transition: opacity 2.5s;
 }
 
 @media only screen and (max-width: 600px) {

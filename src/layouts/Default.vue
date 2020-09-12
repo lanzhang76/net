@@ -1,11 +1,8 @@
 <template>
   <div class="layout">
     <header class="header">
-      <div class="header_element header1">
-        <g-link class="header_name" to="/">
-          <!-- <div class="bar"></div> -->
-          Lan Zhang
-        </g-link>
+      <div class="header_element header1" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">
+        <g-link class="header_name" to="/">{{name}}</g-link>
       </div>
     </header>
 
@@ -17,7 +14,17 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      name: "LAN ZHANG",
+    };
+  },
+  methods: {
+    mouseover: function () {
+      this.name = "LAN ZHANG > Work";
+    },
+    mouseleave: function () {
+      this.name = "LAN ZHANG";
+    },
   },
 };
 </script>
