@@ -13,6 +13,13 @@
         <div class="box vertical email"></div>
         <div class="box vertical" id="half6">
           <div class="box horizontal">
+            <div id="credits">
+              <!-- <caption class="cap_small">Credit</caption> -->
+              This site is built with
+              <a href="https://vuejs.org/">Vue.js</a> and
+              <a href="https://gridsome.org/">Gridsome</a>.
+              Copyright © 2020 Lan Zhang
+            </div>
             <div class="sketch">
               <iframe
                 width="300px"
@@ -23,12 +30,6 @@
           </div>
           <div class="box horizontal" id="half8">
             <div class="box vertical">
-              <!-- <div id="credits">
-                <caption class="cap_small">Credit</caption>This site is built with
-                <a href="https://vuejs.org/">Vue.js</a> and
-                <a href="https://gridsome.org/">Gridsome</a>.
-                Copyright © 2020 Lan Zhang
-              </div>-->
               <div class="social-col mobile-text">
                 <caption class="cap_small">Connect</caption>
                 <!--  @click.native="showR" -->
