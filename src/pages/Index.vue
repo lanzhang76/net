@@ -20,9 +20,16 @@
         </div>
       </div>
       <!-- <Foofoo></Foofoo> -->
-      <div class="header_element header2 round-button">
+      <!-- <div class="header_element header2 round-button">
         <g-link class="nav__link" to="/about/">About</g-link>
-      </div>
+      </div>-->
+
+      <g-link ref="aboutBar" class="nav__link" to="/about/">
+        <div class="sideheader">
+          <div class="sideheader-item sideheader1">ABOUT</div>
+          <div class="sideheader-item sideheader2"></div>
+        </div>
+      </g-link>
       <coverimage v-bind:url="currentURL" v-show="currentURL != ''" />
       <div id="shortDes">{{currentDescription}}</div>
     </Layout>
@@ -105,6 +112,36 @@ export default {
   justify-content: left;
   padding: 10vh 0;
   font-family: "Rozha One", serif;
+}
+
+.sideheader {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  line-height: 0.5em;
+  display: flex;
+  padding: 0em;
+  transition: all 0.3s ease;
+}
+
+.sideheader:hover {
+  width: 50px;
+}
+
+.sideheader-item {
+  height: 50%;
+}
+
+.sideheader1 {
+  background-color: #ffb200;
+  padding: 0.5em;
+}
+.sideheader2 {
+  background-image: linear-gradient(#e88d39, #ef6969, #46c8c0, #c2d7ff);
 }
 
 .round-button {

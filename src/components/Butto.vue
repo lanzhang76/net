@@ -14,22 +14,23 @@ export default {
   props: { info: { title: "", link: "" } },
   data() {
     return {};
-  }
+  },
 };
 </script>
 
 <style scoped>
 button {
-  padding: 5px;
-  background-color: none;
-  border: 1px solid var(--global-font-color);
+  padding: 2px 5px 2px 5px;
+  background-color: #775dbf;
+  border: 3px solid #5e8de8;
   margin-right: 5px;
   margin-bottom: 5px;
-  border-radius: 2px;
+  border-radius: 5px;
   float: left;
   font-size: var(--cap-font-size);
-  color: var(--global-font-color);
+  color: white;
   outline: none;
+  font-size: 1em;
 }
 
 /* .ck-button {
@@ -46,15 +47,15 @@ button {
 
 @keyframes grad {
   0% {
-    background: white;
+    background: black;
     color: black;
   }
   20% {
-    background: royalblue;
+    background: #5e8de8;
     color: white;
   }
   100% {
-    background: royalblue;
+    background: #5e8de8;
     color: white;
   }
 }

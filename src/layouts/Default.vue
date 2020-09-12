@@ -8,15 +8,17 @@
         </g-link>
       </div>
     </header>
+
     <slot />
   </div>
 </template>
+
 
 <script>
 export default {
   data() {
     return {};
-  }
+  },
 };
 </script>
 <style>
@@ -39,7 +41,7 @@ export default {
 }
 
 body {
-  cursor: url("/cursor.png"), default;
+  /* cursor: url("/cursor.png"), default; */
   font-family: sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: var(--reg-font-size);
@@ -49,9 +51,9 @@ body {
   word-spacing: 1px;
 }
 
-a:hover {
+/* a:hover {
   cursor: url("/cursorh.png"), default;
-}
+} */
 
 ::selection {
   background: #ffb7b7;
@@ -147,7 +149,7 @@ a:hover {
 
   .header_name {
     font-size: 22px;
-    background-color: white;
+    /* background-color: white; */
   }
 }
 </style>

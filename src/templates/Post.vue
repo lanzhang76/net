@@ -66,7 +66,7 @@ query ($path: String!) {
 import scrollTop from "../components/scrollTop";
 
 export default {
-  components: { scrollTop }
+  components: { scrollTop },
 };
 </script>
 
