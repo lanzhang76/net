@@ -159,12 +159,14 @@ div {
   outline: none;
 }
 
-#half10:hover,
-#half10 > input:hover {
+#half10:hover {
   transition-duration: 0.2s;
+  color: black;
+}
+#half10 > input:hover {
+  transition-duration: 0.6s;
   background-color: tomato;
   border: 4px solid royalblue;
-  color: black;
 }
 
 #xmark {
