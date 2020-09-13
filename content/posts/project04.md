@@ -3,7 +3,7 @@ title: Bloop
 order: 07
 year: 2020
 Description10: "A collaborative shading environment"
-Description50: "A multi-user online coding environment for collaboratively making GLSL shaders on a blob geometry."
+Description50: "A multi-user online coding environment for collaboratively making GLSL shaders on a blob geometry"
 Tags: ["Socket.io","GLSL/OpenGL","Three.js"]
 Collaborator: "In Collaboration with Anna Garbier"
 cover_image: "./cover_images/bloop00.jpg"

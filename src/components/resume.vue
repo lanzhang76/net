@@ -59,7 +59,7 @@
               <li>Python Course Instructor</li>
               <li>Hindsight Thesis Website programmer</li>
               <li>Front-End Research Assistant for a data visualization product</li>
-              <li>Design Residency with US Holocasut Memorial Museum</li>
+              <li>Design Residency with US Holocaust Memorial Museum</li>
               <li>Undergraduate-level Immersive Storytelling Course Instructor</li>
               <li>Bootcamp Coding Teaching Fellow</li>
               <li>Creative Programming Tutor Specialist</li>

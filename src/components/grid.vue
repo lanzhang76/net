@@ -6,7 +6,11 @@
           <h1>Hello there ✨ this is Lan.</h1>
           <br />I am a creative technologist, developer, and art director based in NYC. I enjoy making interactive tools related to language, graphics and play experiences on the web.
           <br />
-          <br />I'm currently a freelance developer, an artist, and a part-time faculty at Parsons School of Design, where I received my MFA in Design and Technology.
+          <br />I'm currently a freelance developer, an artist, and a
+          <a
+            href="https://www.newschool.edu/about/directory/#!/lan-zhang"
+            target="blank"
+          >part-time faculty</a> at Parsons School of Design, where I received my MFA in Design and Technology.
         </div>
       </div>
       <div class="box horizontal" id="half4">
@@ -236,6 +240,7 @@ iframe {
   position: absolute;
   z-index: 200;
   transition: opacity 2.5s;
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 600px) {
