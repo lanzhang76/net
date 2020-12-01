@@ -2,9 +2,17 @@
   <div class="home">
     <Layout>
       <div class="main">
-        <div class="container">
-          <div v-for="edge in $static.allPost.edges" :key="edge.node.id">
-            <div v-on:mouseover="changeURL(edge.node.cover_image,edge.node.Description10)">
+        <div class="container" id="container">
+          <div
+            @mousemove="mouseMove"
+            v-for="edge in $static.allPost.edges"
+            :key="edge.node.id"
+          >
+            <div
+              v-on:mouseover="
+                changeURL(edge.node.cover_image, edge.node.Description10)
+              "
+            >
               <g-link class="hover-title" :to="edge.node.path">
                 <!-- <span>{{ hover ? '⧈' : '⧠' }}</span> -->
                 ⧠
@@ -12,7 +20,8 @@
                   class="spantitle"
                   @mouseover="hover = true"
                   @mouseleave="hover = false"
-                >{{edge.node.title}}</span>
+                  >{{ edge.node.title }}</span
+                >
               </g-link>
             </div>
             <!-- <g-image class="hover-image" :src="edge.node.cover_image"></g-image> -->
@@ -30,8 +39,12 @@
           <div class="sideheader-item sideheader2"></div>
         </div>
       </g-link>
-      <coverimage v-bind:url="currentURL" v-show="currentURL != ''" />
-      <div id="shortDes">{{currentDescription}}</div>
+      <coverimage
+        id="img_block"
+        v-bind:url="currentURL"
+        v-show="currentURL != ''"
+      />
+      <div id="shortDes">{{ currentDescription }}</div>
     </Layout>
   </div>
 </template>
@@ -57,6 +70,8 @@
 <script>
 import Foofoo from "../components/Footer";
 import coverimage from "../components/Cover";
+import { gsap, Power2 } from "gsap";
+import { TimelineLite } from "gsap";
 
 export default {
   metaInfo: {
@@ -86,6 +101,24 @@ export default {
         this.$refs.cuberef.innerText = "⧈";
       }
     },
+    mouseMove(event) {
+      const img = document.getElementById("img_block");
+      const box = document.getElementById("container");
+      var xPos = event.clientX - img.offsetWidth / 2;
+      var yPos = event.clientY - img.offsetHeight / 2;
+      gsap.to(img, 1, {
+        x: xPos,
+        y: yPos,
+        ease: Power2.easeOut,
+      });
+    },
+  },
+  mounted() {
+    const box = document.querySelectorAll(".container");
+    const timeline = new TimelineLite();
+    box.forEach((el) => {
+      gsap.from(el, 1, { x: -20, opacity: 0, y: -5, ease: Power2.easeOut });
+    });
   },
 };
 </script>

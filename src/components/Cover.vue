@@ -22,9 +22,9 @@ export default {
   height: 600px;
   position: fixed;
   display: flex;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
   z-index: -5;
 }
 
