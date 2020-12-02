@@ -119,10 +119,17 @@ export default {
     },
   },
   mounted() {
-    const box = document.querySelectorAll(".container");
-    const timeline = new TimelineLite();
-    box.forEach((el) => {
-      gsap.from(el, 1, { x: -20, opacity: 0, y: -5, ease: Power2.easeOut });
+    console.log("Hello there. Welcome to Lan's site :)");
+    const box = document.querySelectorAll(".hover-title");
+    gsap.from(box, 1, {
+      x: -20,
+      opacity: 0,
+      stagger: {
+        each: 0.1,
+        start: "center",
+      },
+      y: -20,
+      ease: Power2.easeOut,
     });
   },
 };
