@@ -4,13 +4,19 @@
       <div class="box horizontal">
         <div class="intro mobile-text">
           <h1>Hello there ✨ this is Lan.</h1>
-          <br />I am a creative technologist, developer, and art director based in NYC. I enjoy making interactive tools related to language, graphics and play experiences on the web.
+          <br />I am a creative developer and art director based in NYC. I enjoy
+          making interactive tools related to language, graphics and play
+          experiences on the web.
           <br />
-          <br />I'm currently a freelance developer, an artist, and a
+          <br />I currently work as an interactive developer at GSW Advertising
+          and a
           <a
             href="https://www.newschool.edu/about/directory/#!/lan-zhang"
             target="blank"
-          >part-time faculty</a> at Parsons School of Design, where I received my MFA in Design and Technology.
+            >part-time faculty</a
+          >
+          at Parsons School of Design, where I received my MFA in Design and
+          Technology.
         </div>
       </div>
       <div class="box horizontal" id="half4">
@@ -21,8 +27,8 @@
               <!-- <caption class="cap_small">Credit</caption> -->
               This site is built with
               <a href="https://vuejs.org/">Vue.js</a> and
-              <a href="https://gridsome.org/">Gridsome</a>.
-              Copyright © 2020 Lan Zhang
+              <a href="https://gridsome.org/">Gridsome</a>. Copyright © 2020 Lan
+              Zhang
             </div>
             <div class="sketch">
               <iframe
@@ -35,17 +41,28 @@
           <div class="box horizontal" id="half8">
             <div class="box vertical">
               <div class="social-col mobile-text">
-                <caption class="cap_small">Connect</caption>
+                <caption class="cap_small">
+                  Connect
+                </caption>
                 <!--  @click.native="showR" -->
-                <butto v-bind:info="{title:`Email`,link:emailadd}" target="_top"></butto>
-                <butto v-bind:info="{title:`Github`,link:git}"></butto>
-                <butto v-bind:info="{title:`LinkedIn`,link:linkedin}"></butto>
-                <butto v-bind:info="{title:`Instagram`,link:instagram}"></butto>
+                <butto
+                  v-bind:info="{ title: `Email`, link: emailadd }"
+                  target="_top"
+                ></butto>
+                <butto v-bind:info="{ title: `Github`, link: git }"></butto>
+                <butto
+                  v-bind:info="{ title: `LinkedIn`, link: linkedin }"
+                ></butto>
+                <butto
+                  v-bind:info="{ title: `Instagram`, link: instagram }"
+                ></butto>
               </div>
             </div>
             <div class="box vertical" id="half10">
               <input type="checkbox" v-model="resume" />
-              <caption class="cap_small">CV</caption>
+              <caption class="cap_small">
+                CV
+              </caption>
               <h1 id="xmark" v-show="resume">✕</h1>
             </div>
           </div>
@@ -134,7 +151,7 @@ div {
 
 #half8 {
   background: #f2f2f2;
-  color: #434040;
+  color: black;
 }
 
 #half10 {

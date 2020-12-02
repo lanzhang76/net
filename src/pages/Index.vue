@@ -1,13 +1,9 @@
 <template>
   <div class="home">
     <Layout>
-      <div class="main">
+      <div class="main" @mousemove="mouseMove">
         <div class="container" id="container">
-          <div
-            @mousemove="mouseMove"
-            v-for="edge in $static.allPost.edges"
-            :key="edge.node.id"
-          >
+          <div v-for="edge in $static.allPost.edges" :key="edge.node.id">
             <div
               v-on:mouseover="
                 changeURL(edge.node.cover_image, edge.node.Description10)
@@ -104,13 +100,22 @@ export default {
     mouseMove(event) {
       const img = document.getElementById("img_block");
       const box = document.getElementById("container");
-      var xPos = event.clientX - img.offsetWidth / 2;
-      var yPos = event.clientY - img.offsetHeight / 2;
-      gsap.to(img, 1, {
-        x: xPos,
-        y: yPos,
-        ease: Power2.easeOut,
-      });
+      if (
+        event.x > box.getBoundingClientRect().left &&
+        box.getBoundingClientRect().right &&
+        event.y > box.getBoundingClientRect().top &&
+        event.y < box.getBoundingClientRect().bottom
+      ) {
+        var xPos = event.x - img.offsetWidth / 2;
+        var yPos = event.y - img.offsetHeight / 2;
+        gsap.to(img, 1, {
+          x: xPos,
+          y: yPos,
+          ease: Power2.easeOut,
+        });
+      } else {
+        this.currentURL = "";
+      }
     },
   },
   mounted() {
@@ -237,16 +242,16 @@ export default {
   }
   25% {
     color: rgba(173, 205, 255, 1);
+    background-color: black;
   }
   50% {
     color: rgba(173, 205, 255, 1);
-    background-color: transparent;
-    border-radius: 30px 0px 30px 0;
+    border-radius: 15px;
   }
   100% {
     color: rgba(255, 255, 255, 1);
     background-color: black;
-    border-radius: 0 20px 0px 20px;
+    border-radius: 15px;
   }
 }
 

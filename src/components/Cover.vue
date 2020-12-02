@@ -10,7 +10,7 @@ export default {
   props: ["url"],
   data() {
     return {};
-  }
+  },
 };
 </script>
 
@@ -29,7 +29,7 @@ export default {
 }
 
 .post img {
-  width: 1000px;
+  width: 900px;
   height: 600px;
   object-fit: contain;
 }
