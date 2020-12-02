@@ -151,7 +151,7 @@ div {
 
 #half8 {
   background: #f2f2f2;
-  color: black;
+  color: #434040;
 }
 
 #half10 {
