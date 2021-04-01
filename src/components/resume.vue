@@ -33,8 +33,19 @@
         <div class="category">
           <b>Experience</b>
         </div>
+
         <div class="resume">
-          <div class="col-item col1">2020 Aug-</div>
+          <div class="col-item col1">2020 Nov-</div>
+          <div class="col-item col2">
+            <div class="title">
+              Interactive Developer
+              <div class="location">GSW Advertising, New York, NY</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume">
+          <div class="col-item col1">2020 Aug-Dec</div>
           <div class="col-item col2">
             <div class="title">
               Part-time Faculty
@@ -58,9 +69,13 @@
             <ul>
               <li>Python Course Instructor</li>
               <li>Hindsight Thesis Website programmer</li>
-              <li>Front-End Research Assistant for a data visualization product</li>
+              <li>
+                Front-End Research Assistant for a data visualization product
+              </li>
               <li>Design Residency with US Holocaust Memorial Museum</li>
-              <li>Undergraduate-level Immersive Storytelling Course Instructor</li>
+              <li>
+                Undergraduate-level Immersive Storytelling Course Instructor
+              </li>
               <li>Bootcamp Coding Teaching Fellow</li>
               <li>Creative Programming Tutor Specialist</li>
             </ul>
@@ -84,14 +99,18 @@
           <div class="col-item col2">
             <div class="title">
               Art Director
-              <div class="location">Publicis Worldwide New York, New York, NY</div>
+              <div class="location">
+                Publicis Worldwide New York, New York, NY
+              </div>
             </div>
 
             <ul>
-              <li>Art directed for the Mets, Urbanspace, Swiffer & President’s Cup</li>
               <li>
-                Worked on print ads, outdoor campaigns,
-                digital campaigns, visual identity, mobile UI/UX
+                Art directed for the Mets, Urbanspace, Swiffer & President’s Cup
+              </li>
+              <li>
+                Worked on print ads, outdoor campaigns, digital campaigns,
+                visual identity, mobile UI/UX
               </li>
             </ul>
           </div>
@@ -103,8 +122,8 @@
             <div class="title">
               Freelance Designer, Art Director
               <div class="location">
-                Melt4u, My Lucky Tummy, Waine’ World,
-                Surfin’ Birds House, Syracuse TNH
+                Melt4u, My Lucky Tummy, Waine’ World, Surfin’ Birds House,
+                Syracuse TNH
               </div>
             </div>
 
@@ -129,7 +148,9 @@
             <div class="title">
               Hack(Comedy)
               <span class="workshop-type">Talk</span>
-              <div class="location">Hindsight Parsons Design & Technology Thesis Show, New York</div>
+              <div class="location">
+                Hindsight Parsons Design & Technology Thesis Show, New York
+              </div>
             </div>
           </div>
         </div>
@@ -139,7 +160,9 @@
             <div class="title">
               Hack(Comedy)
               <span class="workshop-type">Performance</span>
-              <div class="location">CultureHub Re-Fest, LaMama Experimental Theater, New York</div>
+              <div class="location">
+                CultureHub Re-Fest, LaMama Experimental Theater, New York
+              </div>
             </div>
           </div>
         </div>
@@ -179,9 +202,7 @@
           <div class="col-item col2">
             <div class="title">
               Advanced Processing: Object, Class and Particle System
-              <span
-                class="workshop-type"
-              >Elective Workshop</span>
+              <span class="workshop-type">Elective Workshop</span>
               <div class="location">Parsons School of Design, New York, NY</div>
             </div>
           </div>
@@ -218,10 +239,15 @@
             <div>Parsons Commencement Student Speaker</div>
             <div>Parsons School of Design Research Fund</div>
             <div>Parsons School of Design Research Dean's Scholarshop</div>
-            <div>AAF National Student Advertising Competition Northeast Regional Winner</div>
+            <div>
+              AAF National Student Advertising Competition Northeast Regional
+              Winner
+            </div>
             <div>S.I. Newhouse Adveritisng Gallery</div>
             <div>Graphis New Talent Advertising Award - 2 Silver, 2 Merit</div>
-            <div>Graphis New Talent Advertising Award - 1 Platinum, 1 Silver</div>
+            <div>
+              Graphis New Talent Advertising Award - 1 Platinum, 1 Silver
+            </div>
           </div>
         </div>
       </div>
